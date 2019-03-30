@@ -264,26 +264,68 @@ for i in range(len(data)):
  'unripened': 0.4448522641233823}
    """
    
+   tfidf[1]
+    
+     """
+     {'2016': 0.11380015345836172,
+ 'a': -0.008490552453230629,
+ 'acidity': 0.034575773880488776,
+ 'already': 0.11001803644940705,
+ 'although': 0.10298261973171852,
+ 'and': -0.05174509839705191,
+ 'are': 0.04251325725115718,
+ 'be': 0.0758938893950697,
+ 'berry': 0.05599544952777387,
+ 'better': 0.11550567235537042,
+ 'certainly': 0.1306269012902103,
+ 'drinkable': 0.13178219743062874,
+ 'filled': 0.1566321245301649,
+ 'firm': 0.06981608343475457,
+ 'freshened': 0.2016892832488414,
+ 'from': 0.036416516428888615,
+ 'fruits': 0.05965775914074526,
+ 'fruity': 0.06895087534012738,
+ 'is': 0.015564138364476482,
+ 'it': 0.02232560623354938,
+ "it's": 0.03867597393083618,
+ 'juicy': 0.06817525362314754,
+ 'out': 0.07446325461714788,
+ 'red': 0.05086219022153037,
+ 'ripe': 0.04137701835596421,
+ 'smooth': 0.07672529323974082,
+ 'still': 0.08180504561834981,
+ 'structured': 0.08486383110965387,
+ 'tannins': 0.03787401088914437,
+ 'that': 0.033215631858908995,
+ 'this': 0.0034510320102208534,
+ 'while': 0.06326233886249968,
+ 'will': 0.07301860053792186,
+ 'wine': 0.013477763381385875,
+ 'with': 0.004024573638911964}
+     
+     """
    
 ###Constructing A Vector
 
-"""Now that we have our TF-IDF dictionaries, we can create our matrix.
- Our matrix will be an array of vectors, where each vector represents a review.
- The vector will be a list of frequencies for each unique word in the dataset—the TF-IDF 
- value if the word is in the review, or 0.0 otherwise.
- """
- 
-# Create a list of unique words
-wordDict = sorted(countDict.keys())
+"""
+suppose , we want to see first 2 records of review in a matrix form 
+we will load everything into pandas dataframe 
+"""
 
-def computeTFIDFVector(review):
-      tfidfVector = [0.0] * len(wordDict)
-     
-      # For each unique word, if it is in the review, store its TF-IDF value.
-      for i, word in enumerate(wordDict):
-          if word in review:
-              tfidfVector[i] = review[word]
-      return tfidfVector
+import pandas as pd
+pd.DataFrame([tfidf[0], tfidf[1]])
 
-for review  in tfidf:
-     tfidfvector = computeTFIDFVector(review)
+
+""" 
+2016         a   acidity  alongside   already  although       and  \
+0     NaN       NaN  0.054745   0.132608       NaN       NaN -0.081930   
+1  0.1138 -0.008491  0.034576        NaN  0.110018  0.102983 -0.051745   
+
+      apple       are   aromas    ...      tannins      that       the  \
+0  0.096522       NaN  0.04954    ...          NaN       NaN -0.022106   
+1       NaN  0.042513      NaN    ...     0.037874  0.033216       NaN   
+
+       this  tropical  unripened     while      will      wine      with  
+0       NaN  0.149064   0.444852       NaN       NaN       NaN       NaN  
+1  0.003451       NaN        NaN  0.063262  0.073019  0.013478  0.004025  
+"""
