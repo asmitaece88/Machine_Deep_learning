@@ -1,0 +1,189 @@
+////all the 3 csv files loaded into /user/asmitaece887002
+
+////  all the below commands are executed in spark-shell
+import org.apache.spark.sql.SparkSession
+
+import org.apache.spark.mllib.recommendation.ALS
+
+import org.apache.spark.mllib.recommendation.MatrixFactorizationModel
+
+import org.apache.spark.mllib.recommendation.Rating
+
+import scala.Tuple2
+
+import org.apache.spark.rdd.RDD
+
+
+
+////below cod snippet returns  the DataFrame of the ratings.csv which is loaded in the home path 
+/////load the ratings data in a  dataframe 
+
+
+val ratingsDF = spark.read.format("csv").option("header", "true").load("/user/asmitaece887002/movie_data/ratings.csv") 
+
+////check the schema 
+ratingsDF.schema
+
+////register the dataframe as a temporary view 
+ratingsDF.createOrReplaceTempView("ratings")
+
+//// next loading the movies data in a new dataframe 
+val moviesDF  = spark.read.format("csv").option("header", "true").load("/user/asmitaece887002/movie_data/movies.csv")
+
+moviesDF.createOrReplaceTempView("movies")
+
+
+
+//// next explore the query for related statistics . 
+
+////first get the ratings 
+
+val numRatings = ratingsDF.count()
+
+///get the count of the user ids from ratings data in a variable 
+
+val numUsers = ratingsDF.select(ratingsDF.col("userId")).distinct().count()
+
+///// get the count of distinct  movies 
+val numMovies = ratingsDF.select(ratingsDF.col("movieId")).distinct().count() 
+
+//// print the messages of the counts 
+
+println("Total number of ratings : " + numRatings + " from distinct users  " + numUsers + "  on distinct movies" + numMovies )
+
+//// next check for each movie , the min , max ratings as well as the distinct count of the  users , who have rated each movie 
+
+spark.sql("select mv.movieId,min(rv.rating) ,max(rv.rating),count(distinct  rv.userId) from ratings rv, movies mv where rv.movieId = mv.movieId  group by mv
+.movieId").show()
+
+
+//// next to get some insight on most active users , we need to find out the 25 most active users 
+// who  have rated any movie(s) the most number of times
+spark.sql("SELECT rv.userId, count(rv.rating) as ct from ratings  rv group by rv.userId order by ct desc limit 25").show(25) 
+
+//// next check for a particular user 10514  and the movies(show 20) , he has rated  < 3 
+
+spark.sql("SELECT rv.userId, rv.movieId , rv.rating FROM ratings rv , movies mv WHERE rv.movieId = mv.movieId AND rv.userId=10514 AND rv.rating < 3").show(20)
+
+
+////next prepare for ML algo ALS applicataion
+
+// Split ratings RDD into training RDD (70%) & test RDD (30%)
+
+val splits = ratingsDF.randomSplit(Array(0.70, 0.20), seed = 1000)
+
+val (train, test) = (splits(0), splits(1))
+
+val numTraining = train.count()////205786
+
+val numTest = test.count()//58719
+
+println("Training: " + numTraining + " test: " + numTest)
+
+////You should notice that there are 205786 ratings in training and 58719 ratings in the test DataFrame.
+
+//  next building recommendation on ALS in spark
+//// first build the training and testingRDD from dataframe 
+
+
+val ratingsRDD = train.rdd.map(row => {
+Rating((row.getString(0)).toInt, (row.getString(1)).toInt, (row.getString(2)).toDouble)
+})
+
+ val testRDD = test.rdd.map(row => {
+Rating(row.getString(0).toInt, row.getString(1).toInt, row.getString(2).toDouble)
+})
+
+
+////first trying to build using ALS.trainImplicit
+
+val rank = 20
+
+val numIterations = 15
+
+val lambda = 0.10
+
+val alpha = 1.00
+
+val model = ALS.trainImplicit(ratingsRDD, rank, numIterations, lambda, alpha)
+// usig trainImplcit , the RMSE comes aroumd 2.27 , which is too high , hence we use new ALS  object 
+
+
+
+//// finally making predictions 
+//// get top 10 recoemmendations  for user 10514
+
+println("Rating:(UserID, MovieID, Rating)")
+
+println("----------------------------------")
+
+val topRecsForUser = model.recommendProducts(10514, 10) 
+for (rating <- topRecsForUser) 
+{ println(rating.toString()) 
+}
+ """
+ Rating(10514,318,3.8403169123304446)
+Rating(10514,858,3.826555488709564)
+Rating(10514,123,3.801358078160497)
+Rating(10514,296,3.782758110165226)
+Rating(10514,7156,3.7802374524140054)
+Rating(10514,2959,3.7712047990125637)
+Rating(10514,1221,3.7655054345783623)
+Rating(10514,7153,3.7346563128627106)
+Rating(10514,2859,3.7210675634395223)
+Rating(10514,4993,3.7131017726026454)
+
+"""
+
+//// next Evaluating the model
+
+//In order to verify the quality of the model, Root Mean Squared Error (RMSE) is used to measure the difference between values predicted
+// by a model and the values actually observed. 
+//By default, the smaller the calculated error, the better the model. In order to test the quality of the model, the test data is used
+
+
+//first create the UDF
+
+def computeRmse(model: MatrixFactorizationModel, data: RDD[Rating], implicitPrefs: Boolean): 
+Double = {
+	val predictions: RDD[Rating] = model.predict(data.map(x => (x.user, x.product))) 
+	val predictionsAndRatings = predictions.map { x => ((x.user, x.product), x.rating) } .join(data.map(x => ((x.user, x.product), x.rating))).values
+	if (implicitPrefs)
+		{ println("(Prediction, Rating)") 
+	     println(predictionsAndRatings.take(5).mkString("n"))
+	      }
+	math.sqrt(predictionsAndRatings.map(x => (x._1 - x._2) * (x._1 - x._2)).mean()) 
+	}
+	
+	
+	//// now find out the RMSE
+val rmseTest = computeRmse(model, testRDD, true)
+
+println("Test RMSE: = " + rmseTest) //Less is better
+
+Test RMSE: = 3.0607642204834065
+
+// which is too high . hence we use  new ASL() method as below 
+#############################################
+val rank = 20////number of features to use or number of latent factors 
+
+val numIterations = 20//number of iterations of ALS to run
+
+val lambda = 0.05/// regularization parameter in ALS
+
+val alpha = 1.0 //parameter applicable to the implicit feedback variant of ALS that governs the baseline confidence in preference observations
+
+val block = -1//number of blocks used to parallelize computation (set to -1 to auto-configure)
+
+val seed = 1234
+
+val implicitPrefs = false///specifies whether to use the explicit feedback ALS variant or one adapted for implicit feedback data.
+
+val model = new ALS().setIterations(numIterations) .setBlocks(block).setAlpha(alpha).setLambda(lambda).setRank(rank).setSeed(seed).setImplicitPrefs(implicitPrefs).run(ratingsRDD)
+
+val rmseTest = computeRmse(model, testRDD, true)
+
+println("Test RMSE: = " + rmseTest) //Less is better
+
+0.7704546056951085
+#######################################
