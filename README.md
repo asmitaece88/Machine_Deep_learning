@@ -1,46 +1,46 @@
 # ML_algos
 ##########for python codes  done in spyder( extension .py) enclosed with """ """ or #  show the OP , when running the code line by line in local system 
 
-##Application of linear regression as an inference and prediction for Bosto housing price prediction
+## Application of linear regression as an inference and prediction for Bosto housing price prediction
 
 https://github.com/asmitaece88/ML_algos/tree/master/Boston_housing_price_inferences
 
-#### Application of linear regression as an inference and prediction for finding  out the compressive strength of high performance concrete is performed
+## Application of linear regression as an inference and prediction for finding  out the compressive strength of high performance concrete is performed
 
 https://github.com/asmitaece88/ML_algos/tree/master/Concrete_comprehensize_strength
 
 ## Application of Random forest classificication algorithm  along with  cross validation , for classfying  wine .
 https://github.com/asmitaece88/ML_algos/tree/master/Classify_wines
 
-##Loan prediction using decision tree , along with predicted OP in Decision_tree_prediction.csv
-##Check the tree structure from decision_tree_picture.JPG
+## Loan prediction using decision tree , along with predicted OP in Decision_tree_prediction.csv
+## Check the tree structure from decision_tree_picture.JPG
 https://github.com/asmitaece88/ML_algos/tree/master/Loan_prediction_usingDecision_tree
 
-##Loan prediction using Random forest , along with predicted OP in Random Forest.csv.csv
+## Loan prediction using Random forest , along with predicted OP in Random Forest.csv.csv
 https://github.com/asmitaece88/ML_algos/tree/master/Loan_prediction_Using_Random_forest
 
-##Content based recommendation on a Seattle hotel based data set 
+## Content based recommendation on a Seattle hotel based data set 
 https://github.com/asmitaece88/ML_algos/tree/master/Recommndation/Content_based_Rec
 
-##Collaborative filtering using matrix factorization using SVD, on a movielens dataset 
+## Collaborative filtering using matrix factorization using SVD, on a movielens dataset 
 https://github.com/asmitaece88/ML_algos/tree/master/Recommndation/Matrix_factorization_rec
 
 ## Alternating least squares in spark using scala 
 https://github.com/asmitaece88/ML_algos/tree/master/Recommndation/ALS-spark
 
-##RMS titanic disaster prediction , along with predicted output file in submission.csv  which shows survival possibiity for passenger_id , on test data set
+## RMS titanic disaster prediction , along with predicted output file in submission.csv  which shows survival possibiity for passenger_id , on test data set
 https://github.com/asmitaece88/ML_algos/tree/master/Titanic_disaster_prediction
 
-#Building a spam fiter , by classfying a SMS as spam or ham  using SVM , as well as predict any new message 
+# Building a spam fiter , by classfying a SMS as spam or ham  using SVM , as well as predict any new message 
 https://github.com/asmitaece88/ML_algos/tree/master/spam-filter
 
-###Classify voice as male voice or female voice , applying PCA and then apply SVM 
+### Classify voice as male voice or female voice , applying PCA and then apply SVM 
 https://github.com/asmitaece88/ML_algos/tree/master/Voice_recognition
 
-###Various usages of  text mining -Tf-idf 
+### Various usages of  text mining -Tf-idf 
 
 ##  Top 15-20 keyword extraction from a JSON file , using Tf-idf 
 https://github.com/asmitaece88/ML_algos/blob/master/TF-IDF/keywordExtraction/Keyword_extraction.py
 
-##text mining on Wine reviews data set 
+## text mining on Wine reviews data set 
 https://github.com/asmitaece88/ML_algos/blob/master/TF-IDF/TF-IDF-Wine_Reviews.py
