@@ -44,3 +44,7 @@ https://github.com/asmitaece88/ML_algos/blob/master/TF-IDF/keywordExtraction/Key
 
 ## text mining on Wine reviews data set 
 https://github.com/asmitaece88/ML_algos/blob/master/TF-IDF/TF-IDF-Wine_Reviews.py
+
+
+## jupyter notebook code to illustrate the difference between vectorized and non vectorized python functions 
+https://github.com/asmitaece88/ML_algos/blob/master/numpy_vectorization_example.ipynb
