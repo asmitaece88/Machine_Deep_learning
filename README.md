@@ -48,3 +48,10 @@ https://github.com/asmitaece88/ML_algos/blob/master/TF-IDF/TF-IDF-Wine_Reviews.p
 
 ## jupyter notebook code to illustrate the difference between vectorized and non vectorized python functions 
 https://github.com/asmitaece88/ML_algos/blob/master/numpy_vectorization_example.ipynb
+
+
+### Coursera
+
+##  week1 :
+## optional assignment of Python numpy  basics 
+https://github.com/asmitaece88/ML_algos/blob/master/coursera/week_1/Python%2BBasics%2BWith%2BNumpy%2Bv3.ipynb
