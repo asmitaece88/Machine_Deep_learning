@@ -1,0 +1,44 @@
+cd C:/Users/AsmitaChatterjee/Documents/cognitive/cognitive_project/Mc_d_1st_ML/video
+
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-135118-1583092278.mp4 .--done 
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-142118-1583094078.mp4 .---done 
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-145118-1583095878.mp4 .---done 
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-152118-1583097678.mp4 .
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-155118-1583099478.mp4 .
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-162118-1583101278.mp4 .
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200301-165118-1583103078.mp4 .
+
+#####################################################
+
+videos for 
+
+-rw-rw-r-- 1 mcd mcd 472907776 Mar  5 22:13  UHC1Back5-20200304-152108-155108.mp4
+-rw-rw-r-- 1 mcd mcd 472907776 Mar  5 22:14  UHC1Back5-20200304-155108-162108.mp4
+-rw-rw-r-- 1 mcd mcd 174213686 Mar  5 22:14  UHC1Back5-20200304-165108-170008.mp4
+-rw-rw-r-- 1 mcd mcd 473956352 Mar  5 22:14  UHC1Back5-20200304-162108-165108.mp4
+
+scp mcd@US03381KUB01:/home/mcd/Downloads/UHC1Back5-20200304-152108-155108.mp4 .
+
+scp mcd@US03381KUB01:/home/mcd/Downloads/UHC1Back5-20200304-155108-162108.mp4 .
+scp mcd@US03381KUB01:/home/mcd/Downloads/UHC1Back5-20200304-162108-165108.mp4 .
+
+scp mcd@US03381KUB01:/home/mcd/Downloads/UHC1Back5-20200304-165108-170008.mp4 .
+
+
+
+scp mcd@US03381KUB01:/home/mcd/Downloads/UHC1Back5-20200302-155115-1583185875.mp4 .---done
+
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200302-162115-1583187675.mp4 .---done 
+
+
+scp mcd@US03381KUB01:/home/mcd/uhc1back/UHC1Back5-20200302-165115-1583189475.mp4 .--need to do 
+
+
