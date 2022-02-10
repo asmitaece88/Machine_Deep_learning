@@ -55,3 +55,7 @@ https://github.com/asmitaece88/ML_algos/blob/master/numpy_vectorization_example.
 ##  week1 :
 ## optional assignment of Python numpy  basics 
 https://github.com/asmitaece88/ML_algos/blob/master/coursera/week_1/Python%2BBasics%2BWith%2BNumpy%2Bv3.ipynb
+
+## Deep learning use cases 
+## Uploading implementation of  a simple sine wave , using simple RNN and LSTM keras package 
+https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/Deep_learning/Simple_RNN_LSTM_sine_wave_implementation.ipynb
