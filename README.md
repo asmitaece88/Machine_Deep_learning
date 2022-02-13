@@ -59,3 +59,6 @@ https://github.com/asmitaece88/ML_algos/blob/master/coursera/week_1/Python%2BBas
 ## Deep learning use cases 
 ## Uploading implementation of  a simple sine wave , using simple RNN and LSTM keras package 
 https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/Deep_learning/Simple_RNN_LSTM_sine_wave_implementation.ipynb
+
+ ## Uploading implementaion of simple LSTM t univariate time series model , using keras package 
+ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Deep_learning/RNN_time_series.ipynb
