@@ -62,3 +62,5 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
 
  ## Uploading implementaion of simple LSTM t univariate time series model , using keras package 
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Deep_learning/RNN_time_series.ipynb
+ # adding code and output files for basic univariate alcohol sales prediction time series
+ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Deep_learning/basic_time_series_univariate_alcolhol_sales.ipynb
