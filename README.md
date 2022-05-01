@@ -67,3 +67,6 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
  
  # text preprocessing basics using LSTM 
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Deep_learning/Text_preprocessing_LSTM.ipynb
+ 
+ # pytorch tensor operations and derivatives 
+ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Pytorch/pytorch_2_d_tensor_derivatives.ipynb
