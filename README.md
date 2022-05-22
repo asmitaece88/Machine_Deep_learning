@@ -77,4 +77,12 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
  # use  cases of spacy library : tokenization , parts of speech tagging ,dependency visualization , named entity recognition (NER) , sentence segmentation , rule based phrase matching   , regular expressions
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/spacy_use_cases.ipynb
  
+ # use cases of 
+ # ---word_count
+ # --character count
+ # ---average word length
+ # ---stop words count
+ # ---count hashtag and mention
+ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/nlp_important_use_cases.ipynb
+ 
 
