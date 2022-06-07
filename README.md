@@ -85,4 +85,8 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
  # ---count hashtag and mention
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/nlp_important_use_cases.ipynb
  
-
+# pictorial representation of bigram and its  network
+## code 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/NLP_ngrams_ngram_graph.ipynb
+## data set 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/btctweets1%20(1).csv
