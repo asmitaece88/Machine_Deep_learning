@@ -91,3 +91,7 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/NLP_ngrams_ngram_graph.ipynb
 ## data set 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/btctweets1%20(1).csv
+
+
+# picturizing various preprocessing techniques for NLP models
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/Preprocessing_techniquees_NLP.ipynb
