@@ -95,3 +95,10 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/btctweets1%
 
 # picturizing various preprocessing techniques for NLP models
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/Preprocessing_techniquees_NLP.ipynb
+
+
+# uploading stock sentiment csv file and sentiment analysis  using LSTM
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/stock_sentiment_analysis_LSTM.ipynb
+# data set 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/stock_sentiment.csv
+
