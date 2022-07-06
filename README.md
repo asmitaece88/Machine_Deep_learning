@@ -102,3 +102,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/stock_senti
 # data set 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/stock_sentiment.csv
 
+# Sentiment analysis using pre trained BERT on a random dats set 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/Sentiment_analysis_with_BERT.ipynb
