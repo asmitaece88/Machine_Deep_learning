@@ -104,3 +104,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/stock_senti
 
 # Sentiment analysis using pre trained BERT on a random dats set 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/Sentiment_analysis_with_BERT.ipynb
+
+## aws sagemekrr use case for sentiment analysis for disaster tweets , using BERT
+https://github.com/asmitaece88/Machine_Deep_learning/tree/master/AWS-sagemaker-use-cases
