@@ -107,3 +107,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/Sentiment_a
 
 ## aws sagemekrr use case for sentiment analysis for disaster tweets , using BERT
 https://github.com/asmitaece88/Machine_Deep_learning/tree/master/AWS-sagemaker-use-cases
+
+## optimizations from python pandas perspective 
+https://towardsdatascience.com/seven-killer-memory-optimization-techniques-every-pandas-user-should-know-64707348ab20
