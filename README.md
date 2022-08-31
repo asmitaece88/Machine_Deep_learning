@@ -110,3 +110,8 @@ https://github.com/asmitaece88/Machine_Deep_learning/tree/master/AWS-sagemaker-u
 
 ## optimizations from python pandas perspective 
 https://towardsdatascience.com/seven-killer-memory-optimization-techniques-every-pandas-user-should-know-64707348ab20
+
+
+## language translation : very basic , for multi language or mixed language texts
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/check_language_detection.ipynb
+
