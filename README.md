@@ -115,3 +115,6 @@ https://towardsdatascience.com/seven-killer-memory-optimization-techniques-every
 ## language translation : very basic , for multi language or mixed language texts
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/check_language_detection.ipynb
 
+## lexicon based simple sentiment analsys models viz . vader and text blob( based on wordnet)
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/vader_textblob_check.py
+
