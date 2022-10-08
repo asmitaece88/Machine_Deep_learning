@@ -118,3 +118,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/check_langu
 ## lexicon based simple sentiment analsys models viz . vader and text blob( based on wordnet)
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/vader_textblob_check.py
 
+#  workbook , denotes how to extract a text from a image , using image segmentation
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recognition/tesseract_ocr_setup.ipynb
+
