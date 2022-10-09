@@ -121,3 +121,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/vader_textblob_
 #  workbook , denotes how to extract a text from a image , using image segmentation
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recognition/tesseract_ocr_setup.ipynb
 
+## image recognition using pre trained VGG16
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recognition/Image_recognition_vgg16.ipynb
+
