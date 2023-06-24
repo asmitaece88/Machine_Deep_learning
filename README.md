@@ -126,3 +126,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recogniti
 
 ## generating basic Prompts using Gpt text-davinci-003 library
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/1_GPT_check.ipynb
+
+## Forming GPT clone class,Usage of MyOpenAI class to call a  prompt engineering file 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/MyOpenAI_GPT_check.ipynb
