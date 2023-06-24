@@ -124,3 +124,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recogniti
 ## image recognition using pre trained VGG16
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Image_recognition/Image_recognition_vgg16.ipynb
 
+## generating basic Prompts using Gpt text-davinci-003 library
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/1_GPT_check.ipynb
