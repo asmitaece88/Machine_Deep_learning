@@ -129,3 +129,9 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 
 ## Forming GPT clone class,Usage of MyOpenAI class to call a  prompt engineering file 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/MyOpenAI_GPT_check.ipynb
+
+# client -server architecture of  chatbot using text and image 
+## server 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/actualgptclone_chatbot_part1.ipynb
+## client 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/actualgptclone_chatbot_part2.ipynb
