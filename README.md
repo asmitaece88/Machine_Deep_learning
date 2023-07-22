@@ -135,3 +135,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/actualgptclone_chatbot_part1.ipynb
 ## client 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/actualgptclone_chatbot_part2.ipynb
+
+
+# using lagchain ,  develope a prompt   a simple prompt  of  customer complain and its response
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/langchain_examples/prompt_engineering_examples.ipynb
