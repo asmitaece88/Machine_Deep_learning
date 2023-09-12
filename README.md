@@ -142,3 +142,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 
 ## Using langchain , prompt engineering   example by for generating correct prompts by parsing  product review in a specific format
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/langchain_examples/prompt_engineering_output_parser_product_review.ipynb
+
+## examples of langchain agents
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/langchain_examples/langchain_agents_poc.ipynb
