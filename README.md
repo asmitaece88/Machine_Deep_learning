@@ -145,3 +145,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 
 ## examples of langchain agents
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/langchain_examples/langchain_agents_poc.ipynb
+
+# Empowering Natural Language Processing with OpenAI Embeddings: Text Similarity, and Clustering
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/openaiembeddings_usecase.ipynb
+
