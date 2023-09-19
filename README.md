@@ -149,3 +149,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 # Empowering Natural Language Processing with OpenAI Embeddings: Text Similarity, and Clustering
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/openaiembeddings_usecase.ipynb
 
+# adding the whereabouts of semantic kernel along with usage of native function along with semantic function , to showcase how to change the domain of a specific text corpus
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/semantic_kernel/semantic_kernel_introduction.ipynb
