@@ -151,3 +151,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 
 # adding the whereabouts of semantic kernel along with usage of native function along with semantic function , to showcase how to change the domain of a specific text corpus
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/semantic_kernel/semantic_kernel_introduction.ipynb
+
+# How  to download pretrained dataloader dataset using torchvision plus convert_ datataframe  to a tensor 
+
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Pytorch/hands_on_pytorch_data_exploration.ipynb
