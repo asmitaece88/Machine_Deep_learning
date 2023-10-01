@@ -155,3 +155,10 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 # How  to download pretrained dataloader dataset using torchvision plus convert_ datataframe  to a tensor 
 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Pytorch/hands_on_pytorch_data_exploration.ipynb
+
+# Code elaborating how to find out top sentences which consist of a specific  query , by usage of embeddings
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/find_top_sentences_using_embeddings/create_embeddings__4_clusters.ipynb
+# data set used on top of which embeddings are formed . 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/find_top_sentences_using_embeddings/data/data-embedding.csv
+
+
