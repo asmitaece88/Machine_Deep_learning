@@ -161,4 +161,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 # data set used on top of which embeddings are formed . ( using azure open ai)
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/find_top_sentences_using_embeddings/data/data-embedding.csv
 
+# code to show how codex is used  using azure open ai , to generate code .Unlike chat , codex will always look for completion ,  it will not do any in context reading 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/Codex.ipynb
 
