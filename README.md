@@ -164,3 +164,12 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 # code to show how codex is used  using azure open ai , to generate code .Unlike chat , codex will always look for completion ,  it will not do any in context reading 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/Codex.ipynb
 
+## open ai use cases 
+-text generation
+-language translation
+-sentiment analysis
+-question answering
+-summarization
+-code generation
+-chatbots
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/openai_use_cases.ipynb
