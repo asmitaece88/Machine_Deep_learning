@@ -173,3 +173,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 -code generation
 -chatbots
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/openai_use_cases.ipynb
+
+# showcasing Vector Search Using OpenAI Embeddings With Weaviate( data file added in batch:history_text.json)
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/blog_tutorial.py
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/history_text.json
