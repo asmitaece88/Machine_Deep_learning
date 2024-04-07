@@ -74,6 +74,9 @@ https://github.com/asmitaece88/Basic_intermediate_Machine_learning/blob/master/D
  
  # pytorch tensor operations and derivatives 
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Pytorch/pytorch_2_d_tensor_derivatives.ipynb
+
+# pytorch autograd examples
+ https://github.com/asmitaece88/Machine_Deep_learning/tree/master/Pytorch
  
  # use  cases of spacy library : tokenization , parts of speech tagging ,dependency visualization , named entity recognition (NER) , sentence segmentation , rule based phrase matching   , regular expressions
  https://github.com/asmitaece88/Machine_Deep_learning/blob/master/NLP/spacy_use_cases.ipynb
