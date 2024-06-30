@@ -184,3 +184,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 ## Langgraph pocs 
 1.usage of Langgraph components showcasing state , action and looping and illustration of some simple examples
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/langraph_components.ipynb
+
+2. Examples of  difference between normal search and agentic search (using tavily)
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/agentic_search_tools.ipynb
