@@ -187,3 +187,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 
 2. Examples of  difference between normal search and agentic search (using tavily)
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/agentic_search_tools.ipynb
+
+3. Example of a simple agent ( non langgraph code) with reference code to explain how a simple agent can be used to answer questions in sequence
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent.py
+   
