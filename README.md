@@ -192,4 +192,7 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent.py
 4. Example of a  simple agent ( non langrapg code) , with reference code to explain,adding automated data input for agent
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/agentic_search_tools.ipynb
+
+5. Showcasing a 1 node langgraph simple agent
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent_langgraph.py
    
