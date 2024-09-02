@@ -201,3 +201,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 
 7. Simple langgraph agent using tool calls  , using tavily search , with automated inputs from user
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_langraph_agent_tools.py
+
+8. Simple langgraph agent showcasing checkpointer  memory 
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_langgraph_agent_with_memory.py   
