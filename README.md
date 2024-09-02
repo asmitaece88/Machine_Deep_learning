@@ -198,3 +198,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 
 6. Showcasing a  1 node langrapg agent , with automated dynamic inputs from user
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent_langgraph_streamingwithuser_inputs.py
+
+7. Simple langgraph agent using tool calls  , using tavily search , with automated inputs from user
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_langraph_agent_tools.py
