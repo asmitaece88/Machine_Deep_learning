@@ -195,4 +195,6 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 
 5. Showcasing a 1 node langgraph simple agent
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent_langgraph.py
-   
+
+6. Showcasing a  1 node langrapg agent , with automated dynamic inputs from user
+   https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_agent_langgraph_streamingwithuser_inputs.py
