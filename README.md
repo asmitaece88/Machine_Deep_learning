@@ -206,3 +206,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_langgraph_agent_with_memory.py
 9. create a simple refection agent , with langgraph , with a generator function and a  reviewer(reflector or critique)   to review it
     https://github.com/asmitaece88/Machine_Deep_learning/tree/master/Langgraph_pocs/reflection_agent
+10. Create a simple graph , with graphical representation  of  node structure
+    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_graph.ipynb
