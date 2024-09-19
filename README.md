@@ -208,3 +208,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
     https://github.com/asmitaece88/Machine_Deep_learning/tree/master/Langgraph_pocs/reflection_agent
 10. Create a simple graph , with graphical representation  of  node structure
     https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_graph.ipynb
+11. showcasing  conditional edge tool calling or routing
+    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/router.ipynb
