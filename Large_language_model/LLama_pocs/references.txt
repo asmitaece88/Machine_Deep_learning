@@ -1,0 +1,5 @@
+1)Notebook :llamacheck.ipynb
+
+## youtube reference link , 
+https://www.youtube.com/watch?v=7iAe3DmIXJY
+# method  to connect to any llama model from hugging face 
