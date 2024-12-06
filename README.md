@@ -181,6 +181,13 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/blog_tutorial.py
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/history_text.json
 
+# llama pocs 
+1)How to Use Meta Llama 3 with Hugging Face on Google Colab
+
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/LLama_pocs/llamacheck.ipynb
+
+refernce : https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Large_language_model/LLama_pocs/references.txt
+
 ## Langgraph pocs 
 1.usage of Langgraph components showcasing state , action and looping and illustration of some simple examples
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/langraph_components.ipynb
