@@ -221,3 +221,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 
 # added basic  flow   for  using nemo-guardrails  , with openai key and colang content( using conversational boundaris)
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/nemo_guardrails_colang.ipynb
+# added  basic usage of how flow of  guardrails can be continued 
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/using_guardrails.ipynb
