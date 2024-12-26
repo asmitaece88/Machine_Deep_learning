@@ -1,0 +1,4 @@
+nemoguardrails==0.4.0
+openai==0.28.0
+huggingface_hub
+sentence_transformers
