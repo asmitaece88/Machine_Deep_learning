@@ -223,3 +223,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/nemo_guardrails_colang.ipynb
 # added  basic usage of how flow of  guardrails can be continued 
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/using_guardrails.ipynb
+# showcasing a  weather update customer inquiry using nemo guardrails and openai
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/building_custom_inquiry_actions.ipynb
