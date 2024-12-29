@@ -225,3 +225,5 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/using_guardrails.ipynb
 # showcasing a  weather update customer inquiry using nemo guardrails and openai
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/building_custom_inquiry_actions.ipynb
+# Showcasing nemo guardrails with RAG , with pinecone vectordb
+https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/rag_with_nemogyardrails.ipynb
