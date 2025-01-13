@@ -217,7 +217,8 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
     https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/simple_graph.ipynb
 11. showcasing  conditional edge tool calling or routing
     https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/router.ipynb
-
+12. Showcasing code to showcase  usage of trim vs filter for langgraph
+    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/trim_filter_messages.ipynb
 
 # added basic  flow   for  using nemo-guardrails  , with openai key and colang content( using conversational boundaris)
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/nemo_guardrails_colang.ipynb
