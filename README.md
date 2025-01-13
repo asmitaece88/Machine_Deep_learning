@@ -220,6 +220,9 @@ https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/
 12. Showcasing code to showcase  usage of trim vs filter for langgraph
     https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/trim_filter_messages.ipynb
 
+13. Chatbot  with messaging conversation and maintaining history
+    https://github.com/asmitaece88/Machine_Deep_learning/blob/master/Langgraph_pocs/chatbot_with_message_summarization.ipynb
+
 # added basic  flow   for  using nemo-guardrails  , with openai key and colang content( using conversational boundaris)
 https://github.com/asmitaece88/Machine_Deep_learning/blob/master/nemo-guardrails/nemo_guardrails_colang.ipynb
 # added  basic usage of how flow of  guardrails can be continued 
